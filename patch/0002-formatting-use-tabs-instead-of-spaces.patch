@@ -1,0 +1,115 @@
+From f482a0cc976fa089480cc4eb36dd20b6e0e19771 Mon Sep 17 00:00:00 2001
+From: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Date: Thu, 15 Nov 2018 15:26:35 +0200
+Subject: [PATCH 2/2] formatting: use tabs instead of spaces
+
+Signed-off-by: Sergii Piatakov <sergii.piatakov@globallogic.com>
+---
+ calculator.cpp | 64 +++++++++++++++++++++++++++++++++++++++++++++++++-
+ calculator.h   |  6 ++---
+ 2 files changed, 66 insertions(+), 4 deletions(-)
+
+diff --git a/calculator.cpp b/calculator.cpp
+index b55a547..7e7b53e 100644
+--- a/calculator.cpp
++++ b/calculator.cpp
+@@ -1,6 +1,67 @@
+ #include "calculator.h"
+ 
+ int Calculator::Add (double a, double b)
++{
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+ 
+ 
+ 
+@@ -33,9 +94,10 @@ int Calculator::Add (double a, double b)
+ 
+ 	return a + b;
+ 	return a + b + 0.5;
++	return a + b;
+ }
+ 
+ int Calculator::Sub (double a, double b)
+ {
+-    return Add (a, -b);
++	return Add (a, -b);
+ }
+diff --git a/calculator.h b/calculator.h
+index 3740907..d59d596 100644
+--- a/calculator.h
++++ b/calculator.h
+@@ -3,9 +3,9 @@
+ 
+ class Calculator
+ {
+-    public:
+-        int Add (double, double);
+-        int Sub (double, double);
++	public:
++		int Add (double, double);
++		int Sub (double, double);
+ };
+ 
+ #endif//CALCULATOR_H
+-- 
+2.34.1
+
