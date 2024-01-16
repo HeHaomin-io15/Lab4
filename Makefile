@@ -10,3 +10,4 @@ calculator.o: calculator.cpp
 	g++ -c calculator.cpp
 clean:
 	rm -rf *.o calculator
+ 

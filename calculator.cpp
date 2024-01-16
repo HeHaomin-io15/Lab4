@@ -14,3 +14,4 @@ double Calculator::Mul(double a, double b)
 {
   return a*b;
 }
+
