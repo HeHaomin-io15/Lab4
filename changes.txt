@@ -1,6 +1,0 @@
-class HadToWriteSomething(){
-	public HadToWriteSomething(){}
-	public write(){
-		System.out.println("That is anyway something.");
-	}
-}

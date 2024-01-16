@@ -3,46 +3,10 @@
 
 class Calculator
 {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public:
-        int Add (double, double);
-        int Sub (double, double);
-        int Add (int, int);
-        int Mul (double, double);
+        static double Add(double, double);
+        static double Sub(double, double);
+        static double Mul(double, double);
 };
 
 #endif//CALCULATOR_H
